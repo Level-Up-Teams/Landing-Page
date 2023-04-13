@@ -1,0 +1,81 @@
+* {
+    font-family: 'Roboto Mono', monospace;
+}
+
+#logo {
+    object-fit: cover;
+}
+
+.nav-item {
+    margin: 0px 20px;
+}
+
+.navbar-nav li a{
+    color: #F1F9EE;
+}
+
+.credentials :first-child {
+    padding: 8px 35px;
+    background-color: #FFD33B;
+    border-radius: 15px;
+    border: none;
+
+    transition: all 0.8s ease;
+}
+.credentials :first-child:hover {
+    transition: all 0.6s ease;
+    filter: brightness(50%);
+}
+
+.credentials :last-child {
+    color: #D9D9D9;
+    padding: 8px 30px;
+    background-color: #284A76;
+    border-radius: 15px;
+    border: none;
+    
+    transition: all 0.8s ease;
+}
+.credentials :last-child:hover {
+    transition: all 0.6s ease;
+    filter: brightness(50%);
+}
+
+
+
+
+
+
+.home {
+    min-height: 90vh;
+    background: url("/assets/img/principal.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.home .container button {
+    background-color: #FF2273;
+    border-radius: 15px;
+    color: #D9D9D9;
+    font-weight: bold;
+    padding: 8px 40px;
+
+    transition: all 0.8s ease;
+}
+.home .container button:hover {
+    transition: all 0.6s ease;
+    filter: brightness(50%);
+}
+
+.home .container h1, p {
+    color: #F1F9EE;
+    text-shadow: black 3px 3px 2px;
+}
+
+.home .container h1{
+    font-size: 3rem;
+}
+
+.home .container {
+    padding-top: 20vh;
+}
