@@ -1,0 +1,520 @@
+/*Home*/
+
+* {
+    font-family: 'Roboto Mono', monospace;
+}
+
+#logo {
+    object-fit: cover;
+}
+
+.nav-item {
+    margin: 0px 20px;
+}
+
+.navbar-nav li a {
+    color: #F1F9EE;
+}
+
+.credentials :first-child {
+    padding: 8px 35px;
+    background-color: #FFD33B;
+    border-radius: 15px;
+    border: none;
+
+    transition: all 0.8s ease;
+}
+
+.credentials :first-child:hover {
+    transition: all 0.6s ease;
+    filter: brightness(50%);
+}
+
+.credentials :last-child {
+    color: #D9D9D9;
+    padding: 8px 30px;
+    background-color: #284A76;
+    border-radius: 15px;
+    border: none;
+    transition: all 0.8s ease;
+}
+
+.credentials :last-child:hover {
+    transition: all 0.6s ease;
+    filter: brightness(50%);
+}
+
+.home {
+    min-height: 90vh;
+    background: url("/assets/images/Home/principal.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.home .container button {
+    background-color: #FF2273;
+    border-radius: 15px;
+    color: #D9D9D9;
+    font-weight: bold;
+    padding: 8px 40px;
+
+    transition: all 0.8s ease;
+}
+.home .container button:hover {
+    transition: all 0.6s ease;
+    filter: brightness(50%);
+}
+
+.home .container h1, p {
+    color: #F1F9EE;
+    text-shadow: black 3px 3px 2px;
+}
+
+.home .container h1{
+    font-size: 3rem;
+}
+
+.home .container p{
+    margin-right: 0px;
+}
+
+.home .container {
+    padding-top: 20vh;
+}
+
+/*Services*/
+.services {
+    background-color: #F1F9EE;
+    color: #2A1E25;
+    padding: 2rem;
+    text-align: center;
+}
+
+.title-service {
+    font-family: 'Roboto Mono';
+    font-weight: bold;
+    font-size: 5rem;
+    padding: 5rem;
+}
+
+.section-service {
+    padding: 2rem 5rem;
+}
+
+.image-service {
+    width: 15rem;
+    height: 15rem;
+    left: 15rem;
+    top: 15rem;
+}
+
+.services-title {
+    padding: 1.5rem;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+}
+
+.service-p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.9rem;
+}
+
+/*Download and Abou Us*/
+
+.Download{
+    background-color: #FFD33B;
+    padding: 2rem;
+    text-align: center;
+}
+
+.Abou-Us{
+    padding-top: 1px;
+    background-color: #AAA6A6;
+    text-align: center;
+}
+
+.createproduct {
+    margin: 40px;
+    font-family: Roboto Mono;
+    font-size: 48px;
+}
+
+.withjust {
+    font-family: M PLUS 1;
+    font-size: 30px;
+    height: 160px;
+}
+
+.downloadnow {
+    height: 100px;
+    font-family: Roboto Mono;
+    font-size: 36px;
+}
+
+.stores {
+    height: 100px;
+}
+
+.app {
+    margin-right: 40px;
+}
+
+.download {
+    margin-right: 20px;
+}
+
+.separationdownload {
+    margin-bottom: 40px;
+}
+
+.aboutus {
+    font-size: 64px;
+    font-family: Roboto Mono;
+    font-weight: bold;
+    margin: 80px;
+}
+
+.missionpic {
+    height: 320px;
+    margin-left: 100px;
+}
+
+.visionpic {
+    height: 320px;
+}
+
+.vision {
+    padding: 100px;
+}
+
+.missiontext {
+    padding: 30px;
+    font-size: 38px;
+    font-family: M PLUS 1;
+}
+
+.visiontext {
+    padding: 20px;
+    font-size: 38px;
+    font-family: M PLUS 1;
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+    .container {
+        width: 635px;
+    }
+
+    .withjust {
+        font-size: 26px;
+    }
+
+    .app {
+        margin-right: 115px;
+    }
+
+    .downloadnow {
+        margin-top: 30px;
+        height: 80px;
+    }
+
+    .missionpic {
+        height: 260px;
+    }
+
+    .visionpic {
+        height: 260px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .createproduct {
+        font-size: 28px;
+    }
+
+    .withjust {
+        font-size: 22px;
+    }
+
+    .app {
+        width: 380px;
+    }
+
+    .downloadnow {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .storespace {
+        margin-left: 50px;
+    }
+
+    .aboutus {
+        font-size: 28px;
+    }
+
+    .missiontext {
+        font-size: 24px;
+    }
+
+    .missionpic {
+        padding-right: 100px;
+        height: 200px;
+    }
+
+    .visiontext {
+        font-size: 24px;
+    }
+
+    .visionpic {
+        height: 250px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .createproduct {
+        font-size: 40px;
+    }
+
+    .downloadnow {
+        margin-top: 50px;
+        font-size: 25px;
+    }
+
+    .stores {
+        height: 80px;
+    }
+}
+
+
+/*About the Team*/
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+.aboutTheTeam{
+    background-color: #00BFCE;
+    color: #F1F9EE;
+}
+.aboutTheTeam .row div{
+    vertical-align: middle;
+    height:fit-content;
+}
+
+.aboutTheTeam-titulo {
+    background-color: #00BFCE;
+    height: 150px;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.row-title {
+    font-size: 48px;
+}
+.row-bio{
+    font-size: 32px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: normal 16px 'M PLUS 1', sans-serif;
+    color: #000000;
+    scroll-behavior: smooth;
+}
+
+ul, nav {
+    list-style: none;
+}
+
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 125px 100px;
+}
+
+ul.grid {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section h3.title {
+color: #000000;
+font: bold 48px 'Roboto Mono', monospace;
+margin-bottom: 36px;
+text-align: center;
+}
+
+section h4 {
+color: #000000;
+font: bold 18px 'Roboto Mono', monospace;
+margin-bottom: 24px;
+text-align: center;
+}
+
+.services p {
+    font: normal 16px 'M PLUS 1', sans-serif;
+    max-width: 800px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 0 20px;
+    line-height: 2;
+}
+
+/*Testimonials*/
+.testimonials {
+    background-color: #f1f9ee;
+}
+.testimonials .h3{
+    font: normal 45px 'Roboto Mono', monospace !important;
+}
+.testimonials .grid li {
+    padding: 0 30px;
+    flex-basis: 33%;
+    text-align: center;
+}
+@media (max-width: 1000px){
+
+	.services .grid li{
+		flex-basis: 70%;
+		margin-bottom: 65px;
+	}
+
+	.services .grid li:last-child{
+		margin-bottom: 0;
+	}
+
+}
+@media (max-width: 600px){
+
+	.services .grid li{
+		flex-basis: 100%;
+	}
+
+}
+/*-----------end testimonials----------*/
+
+/* Coaches */
+.coaches {
+    background-color: #ff2273;
+}
+.coaches .h3{
+    font: normal 45px 'Roboto Mono', monospace !important;
+}
+.coaches .grid li {
+    padding: 0 30px;
+    flex-basis: 33%;
+    text-align: center;
+}
+@media (max-width: 1000px){
+
+	.services .grid li{
+		flex-basis: 70%;
+		margin-bottom: 65px;
+	}
+
+	.services .grid li:last-child{
+		margin-bottom: 0;
+	}
+
+}
+@media (max-width: 600px){
+
+	.services .grid li{
+		flex-basis: 100%;
+	}
+
+}
+/*-----------end coaches----------*/
+
+/*Footer*/
+footer{
+	width: 100%;
+	background-color: #2a1e25;
+}
+
+footer .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+footer .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .grupo-1 .box figure img{
+    width: 250px;
+}
+
+footer .grupo-1 .box h3{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+footer .grupo-1 .box p{
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+footer .grupo-1 .red-social a{
+    color: #ffffff;
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    margin-right: 10px;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+footer .grupo-1 .red-social a:hover{
+    color: #284a76;
+}
+
+footer .grupo-2{
+    background-color: #2a1e25;
+    padding: 25px 10px;
+    text-align: center;
+    color: #ffffff;
+}
+
+footer .grupo-2 small{
+    font-size: 12px;
+}
+
+@media screen and (max-width:800px){
+    footer .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+}
+/*-----------end footer----------*/
